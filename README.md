@@ -1,4 +1,4 @@
-# guia-do-commiteiro
+# Guia do Commiteiro
 
 > Um projeto em vue.js para mostrar como utilizar o github para os novos membros da [Seed a Bit Tecnologia](http://www.seedabit.org.br/).
 > Optamos em deixar o repositório aberto para ajudarmos qualquer pessoa que quiser saber mais sobre git e aplicar em sua vida. Então esperamos que aproveitem!
