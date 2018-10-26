@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <v-slide-y-transition mode="out-in">
+    <v-slide-y-transition mode="in-out">
       <v-layout column align-center>
         <img src="@/assets/logo.png" alt="Vuetify.js" class="mb-5">
         <blockquote>
