@@ -15,20 +15,20 @@
           Ao ver uma issue num projeto você pode atribuir essa tarefa a alguém do time ou a si. <br />
           A issue estará aparecendo dessa forma: <br />
         </p>
-        <img class="img" lazy-src :src="require('@/assets/ResolvendoIssues/image1.png')" />
+        <img class="img" lazy-src :src="require('../assets/ResolvendoIssues/image1.png')" />
         <p>
           Para atribuir a tarefa é só clicar em Assignees e definir uma pessoa:
         </p>
-        <img class="img" lazy-src :src="require('@/assets/ResolvendoIssues/image2.png')" />
+        <img class="img" lazy-src :src="require('../assets/ResolvendoIssues/image2.png')" />
         <p>
           Se Você estiver usando um quadro automatizado essa issue já aparecerá como um card
         </p>
-        <img class="img" :src="require('@/assets/ResolvendoIssues/image3.png')" />
+        <img class="img" :src="require('../assets/ResolvendoIssues/image3.png')" />
         <p>
           Ok, agora que a issue está pronta temos que trabalhar no projeto e fazer as alterações descritas. <br />
           Nesse caso, adicionaremos um Emoji ao README.md
         </p>
-        <img class="img" :src="require('@/assets/ResolvendoIssues/image4.png')" />
+        <img class="img" :src="require('../assets/ResolvendoIssues/image4.png')" />
         <p>
           Após essa alteração já podemos commitar o código. <br />
           O github nos fornece palavras reservadas para atribuir commits a issues e fechá-las automaticamente. <br /><br />
@@ -56,7 +56,7 @@
         <p>
           No nosso caso, o ID da issue é #1, como podemos ver ao lado do título
         </p>
-        <img class="img" :src="require('@/assets/ResolvendoIssues/image6.png')" />
+        <img class="img" :src="require('../assets/ResolvendoIssues/image6.png')" />
         <p>
           Então faremos o seguinte commit: <br /><br />
           <code>git commit -m "Adicionado o Emoji ao README resolve #1"</code> <br /><br />
@@ -64,7 +64,7 @@
         <p>
           Ao fazer o <code>git pull</code> podemos ver que a Issue foi fechada refecenciando o commit realizado e o card foi movido para <b>Done</b> automaticamente.
         </p>
-        <img class="img" :src="require('@/assets/ResolvendoIssues/image8.png')" />
+        <img class="img" :src="require('../assets/ResolvendoIssues/image8.png')" />
       </div>
     </v-layout>
   </v-container>
