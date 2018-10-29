@@ -9,14 +9,10 @@
 1. Desenvolve em Vue sem medo de ser feliz
 1. Manda um pull request
 
-## E aí? É mágica?
+## E aí? É mágica? :sparkles:
 
 É nada, bb!
-Quando o script
-``` bash
-npm run deploy
-```
-é executado, coisa que a gente vai fazer aqui e você não precisa se preocupar, o programa faz um build e dá um commit no branch gh-pages.
+Quando o script `bash npm run deploy` é executado, coisa que a gente vai fazer aqui e você não precisa se preocupar, o programa faz um build e dá um commit no branch gh-pages.
 Com isso, o master continua sendo apenas para desenvolvimento, enquanto o gh-pages para montar a página.
 
 Facinho, né?
